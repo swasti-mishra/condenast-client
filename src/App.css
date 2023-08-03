@@ -1,0 +1,42 @@
+body{
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.loadingText {
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.boxCardWrapper{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.linkText{
+  display: flex;;
+}
+
+.imageCard{
+  flex-direction: row;
+  display: flex;
+  width: 49%;
+  margin: 1rem;
+  flex: 1 1;
+  text-align: center;
+  justify-content: center;
+}
+.contentWrapper{
+  flex: 1 1;
+  flex-direction: column;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+a.linkText {
+  color: black;
+  text-decoration: none;
+}
+a.linkText:hover {
+  color: brown;
+}
